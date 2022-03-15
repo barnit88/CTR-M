@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+BackEnd/ConstructionManagement/obj/*
+BackEnd/ConstructionManagement/.vs/*
+BackEnd/Common/obj/Debug/net5.0/*
+
+
 # User-specific files
 *.rsuser
 *.suo

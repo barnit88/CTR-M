@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionManagement.Controllers.SiteController
 {
+    [Route("api/[controller]")]
     public class SiteController : ControllerBase
     {
         private readonly ISiteService _service;
