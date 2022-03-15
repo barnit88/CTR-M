@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionManagement.Controllers.RentedEquipmentController
 {
+    [Route("api/[controller]")]
     public class REIncomeController : ControllerBase
     {
         private readonly IREIncomeService _service;

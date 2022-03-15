@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionManagement.Controllers.UserController
 {
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _service;

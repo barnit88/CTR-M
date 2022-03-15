@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionManagement.Controllers.PersonalEquipmentController
 {
+    [Route("api/[controller]")]
     public class PEEPaymentTransactionController : ControllerBase
     {
         private readonly IPEEPaymentTransactionService _service;

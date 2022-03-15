@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionManagement.Controllers.VendorController
 {
+    [Route("api/[controller]")]
     public class VendorController : ControllerBase
     {
         private readonly IVendorService _service;
