@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.RentedEquipmentController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class RERentController : ControllerBase
     {
         private readonly IRERentService _service;

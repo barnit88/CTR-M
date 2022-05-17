@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.ContractController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class ExtendGiveContractController : ControllerBase
     {
         private readonly IExtendGiveContractService _service;

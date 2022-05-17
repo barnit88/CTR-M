@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.ContractController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class TCPaymentTransactionController : ControllerBase
     {
         private readonly ITCPaymentTransactionService _service;

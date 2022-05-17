@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.RentedVehicleController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class RVEPaymentTransactionController : ControllerBase
     {
         private readonly IRVEPaymentTransactionService _service;

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.LabourController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class LabourSiteController : ControllerBase
     {
 

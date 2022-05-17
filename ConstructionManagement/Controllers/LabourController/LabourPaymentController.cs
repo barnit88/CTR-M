@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.LabourController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class LabourPaymentController : ControllerBase
     {
         private readonly ILabourPaymentService _service;

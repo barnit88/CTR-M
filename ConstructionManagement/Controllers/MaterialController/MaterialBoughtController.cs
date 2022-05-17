@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.MaterialController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class MaterialBoughtController : ControllerBase
     {
         private readonly IMaterialBoughtService _service;

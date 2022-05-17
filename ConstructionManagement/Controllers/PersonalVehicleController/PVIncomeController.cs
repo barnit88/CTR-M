@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace ConstructionManagement.Controllers.PersonalVehicleController
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class PVIncomeController : ControllerBase
     {
         private readonly IPVIncomeService _service;
